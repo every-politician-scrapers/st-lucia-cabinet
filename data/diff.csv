@@ -1,16 +1,8 @@
 @@,name,position
-+++,Stephenson King,"Minister for Infrastructure, Ports, Energy and Labour"
-+++,Sarah Flood Beaubrun,Minister with responsibility for External Affairs
-+++,Mary Isaac,Minister for Health and Wellness
-+++,Lenard Montoute,"Minister for Equity, Social Justice, Local Government and Empowerment"
-+++,Herod Stanislas,Minister for Physical Planning
-+++,Hermangild Francis,"Minister for Home Affairs, Justice and National Security"
-+++,Guy Joseph,"Minister for Economic Development, Housing, Urban Renewal, Transport and Civil Aviation"
-+++,Fortuna Belrose,"Minister in the Ministry of Tourism, Information and Broadcasting, Culture and Creative Industries with responsibility for Culture and Creative Industries"
-+++,Ezechiel Joseph,"Minister for Agriculture, Fisheries, Natural Resources and Co-operatives"
-+++,Edmund Estephane,Minister for Youth Development and Sports
-+++,Dr. Gale T. C. Rigobert,"Minister for Education, Innovation, Gender Relations and Sustainable Development"
-+++,Dominic Fedee,"Minister for Tourism, Information and Broadcasting, Culture and Creative Industries"
-+++,Bradley Felix,"Minister for Commerce, Industry, Investment, Enterprise Development and Consumer Affairs"
-+++,Allen Michael Chastanet,"Minister for Finance, Economic Growth, Job Creation, External Affairs and the Public Service"
+->,Sarah Flood-Beaubrun->Sarah Flood Beaubrun,Minister with responsibility for External Affairs
+->,Mary Issac->Mary Isaac,Minister for Health and Wellness
+->,Herold Stanislas->Herod Stanislas,Minister for Physical Planning
+->,Gale Rigobert->Dr. Gale T. C. Rigobert,"Minister for Education, Innovation, Gender Relations and Sustainable Development"
+->,Allen Chastanet->Allen Michael Chastanet,"Minister for Finance, Economic Growth, Job Creation, External Affairs and the Public Service"
+---,Rufus Bousquet,Foreign Minister of Saint Lucia
 +++,Allen Michael Chastanet,Prime Minister
