@@ -1,5 +1,5 @@
 wdid,name,wdLabel,gender,dob,dobPrecision,source,pid,position,psid
-Q16203640,Allen Michael Chastanet,Allen Chastanet,male,1960-11-20T00:00:00Z,11,http://www.govt.lc/cabinet,Q107676151,"Minister for Finance, Economic Growth, Job Creation, External Affairs and the Public Service",Q16203640-20E7438C-DA2D-49DB-B190-8B0949075379
+Q16203640,Allen Michael Chastanet,Allen Chastanet,male,,,http://www.govt.lc/cabinet,Q107676151,"Minister for Finance, Economic Growth, Job Creation, External Affairs and the Public Service",Q16203640-20E7438C-DA2D-49DB-B190-8B0949075379
 Q107486429,Bradley Felix,Bradley Felix,male,,,http://www.govt.lc/cabinet,Q107676099,"Minister for Commerce, Industry, Investment, Enterprise Development and Consumer Affairs",Q107486429-D3C9954A-4A03-436A-AC30-30CCC5077890
 Q24851870,Dominic Fedee,Dominic Fedee,male,,,http://www.govt.lc/cabinet,Q107676074,"Minister for Tourism, Information and Broadcasting, Culture and Creative Industries",Q24851870-A7476152-2E0C-43CD-9699-DB05E1E8151F
 Q5518285,Dr. Gale T. C. Rigobert,Gale Rigobert,female,1950-01-01T00:00:00Z,7,http://www.govt.lc/cabinet,Q107676145,"Minister for Education, Innovation, Gender Relations and Sustainable Development",Q5518285-3D0395C0-D23E-4954-A850-11142B8F60FC
@@ -11,5 +11,6 @@ Q107664108,Hermangild Francis,Hermangild Francis,,,,http://www.govt.lc/cabinet,Q
 Q107486426,Herod Stanislas,Herod Stanislas,male,,,http://www.govt.lc/cabinet,Q107676124,Minister for Physical Planning,Q107486426-D72DA7BE-45A4-427B-8BF5-9C838873D2ED
 Q6522265,Lenard Montoute,Lenard Montoute,male,1962-06-30T00:00:00Z,11,http://www.govt.lc/cabinet,Q107676121,"Minister for Equity, Social Justice, Local Government and Empowerment",Q6522265-6F4FBE30-CB01-4B11-9C3B-B9AB3A09387A
 Q107664065,Mary Isaac,Mary Issac,,,,http://www.govt.lc/cabinet,Q107676060,Minister for Health and Wellness,Q107664065-8BF524A1-713F-460B-9B8D-06B16AF58A4E
+Q7184214,Philip Pierre,Philip Pierre,male,,,,Q30101433,Prime Minister of Saint Lucia,Q7184214-a73884a6-4fc3-ba70-09be-426ac0a037d8
 Q16201615,Sarah Flood Beaubrun,Sarah Flood-Beaubrun,female,1969-01-08T00:00:00Z,11,http://www.govt.lc/cabinet,Q107676135,Minister with responsibility for External Affairs,Q16201615-CC7A902B-5C7A-4669-BBB2-BC297C1F2AB8
 Q708289,Stephenson King,Stephenson King,male,1958-11-13T00:00:00Z,11,http://www.govt.lc/cabinet,Q107676131,"Minister for Infrastructure, Ports, Energy and Labour",Q708289-0037150B-916F-47A0-A4E7-C55808C135A3
