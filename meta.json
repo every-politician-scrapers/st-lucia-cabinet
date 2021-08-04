@@ -1,6 +1,20 @@
 {
-    "cabinet": "Q107675631",
-    "lang":    "en",
-    "agent":   "every-politican-scrapers/st-lucia-cabinet",
-    "source_match": "govt.lc/cabinet"
+    "jurisdiction": {
+      "name": "Saint Lucia",
+      "id": "Q760"
+    },
+    "cabinet": {
+      "id": "Q107675631",
+      "start": "YYYY-MM-DD",
+      "parent": "Q107675621"
+    },
+    "source": {
+        "url":   "http://www.govt.lc/cabinet",
+        "title": "Web Portal of the Government of Saint Lucia | Cabinet of Ministers",
+        "lang":  {
+            "code": "en",
+            "wikidata": "Q1860"
+        }
+    },
+    "agent": "every-politican-scrapers/st-lucia-cabinet"
 }
