@@ -1,286 +1,170 @@
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
-	Web Portal of the Government of Saint Lucia
-</title>
-<script type="text/javascript">
-    // This script defines the site Urls.
-    var Settings = {
-        siteName: 'Access Government',
-        imageServer: 'www.govt.lc/media.govt.lc'
-    };
-
-    function setBookmark() {
-        // Mozilla Firefox Bookmark
-        if ('sidebar' in window && 'addPanel' in window.sidebar) {
-            window.sidebar.addPanel(location.href, document.title, "");
-        } else if ( /*@cc_on!@*/false) { // IE Favorite
-            window.external.AddFavorite(location.href, document.title);
-        } else { // webkit - safari/chrome
-            alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
-        }
-
-        return false;
-    }
-
-    var _safeconsole = true;
-
-    function safeconsole(message) {
-        if (!_safeconsole) {
-            return;
-        }
-        else {
-            try {
-                window.console.log(message);
-            } catch (e) {
-                _safeconsole = false;
-            }
-        }
-    }
-
-</script>
-<script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /><meta name="viewport" content="width=device-width" /><link href="/App_Themes/common.css" rel="stylesheet" /><link href="/App_Themes/pagination.css" rel="stylesheet" /><link href="/App_Themes/mediaelementplayer.css" rel="stylesheet" /><meta name="title" content="Saint Lucia - Access Government" /><meta name="description" content="Official Web Site of the Government of Saint Lucia" /><meta property="og:title" content="Saint Lucia - Access Government" /><meta property="og:description" content="Official Web Site of the Government of Saint Lucia" /><meta property="og:site_name" content="Saint Lucia - Access Government" /><meta property="og:url" content="http://www.govt.lc" /><meta property="og:image" content="http://www.govt.lc/images/528px-Coat_of_Arms_of_Saint_Lucia.svg.png" />
-    <style type="text/css">
-        #footer-menu {
-            display: table;
-            margin: 0 auto;
-        }
-
-            #footer-menu ul {
-                height: 40px;
-                background-color: #fff;
-                margin: 0;
-                padding: 0;
-                /*margin: 4px 8px 0 8px;*/
-            }
-
-            #footer-menu li {
-                display: inline-block;
-                padding: 10px 10px 0 10px;
-                height: 30px;
-            }
-
-            #footer-menu li:nth-child(5),
-            #footer-menu li:nth-child(6) {
-                padding: 8px 4px 0 4px;
-                height: 32px;
-                }
-
-            #footer-menu li:hover {
-                background-color: #000;
-            }
-
-            #footer-menu li:hover a {
-                color: #fff;
-            }
-
-                #footer-menu li a {
-                    font-family: Arial, Verdana, Helvetica, sans-serif;
-                    font-size: 10pt;
-                    color: #000;
-                    text-decoration: none;
-                    margin-top: 8px;
-                }
-
-            #footer-menu img {
-                border: none;
-            }
-
-        #mnuFooter a.static {
-            padding: 0;
-        }
-
-    </style>
-<link href="App_Themes/Default/htmldocs.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/master.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/menu.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/number_slideshow.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/ourgovt.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/screen.css" type="text/css" rel="stylesheet" /></head>
-<body>
-    <form method="post" action="./cabinet" id="ctl01">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
-
-
-<script src="/ScriptResource.axd?d=YJCxcK2hI-bLBJXUFvzl1xwDG4qG9UBzf7KAkPWgvO5honvvR13AUa0oUBBUEk5cWZrk30Npv-SCnKDWx_HcK_z3NdoCZl1AhBDboEwAHfp_YZjd9GaeSXo0xVRn2anlRAvXJOrweel_QuFGTDg37g2&amp;t=fffffffff6474071" type="text/javascript"></script>
-<script src="Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
-<script src="Scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
-<script src="Scripts/jquery-ui-1.11.4.min.js" type="text/javascript"></script>
-<script src="/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1" type="text/javascript"></script>
-<script src="scripts/jquery.json-2.4.min.js" type="text/javascript"></script>
-<script src="scripts/knockout-3.4.0.js" type="text/javascript"></script>
-<script src="scripts/knockout.mapping-latest.js" type="text/javascript"></script>
-<script src="scripts/bitValues.js" type="text/javascript"></script>
-<script src="scripts/knockout.bindinghandlers.js" type="text/javascript"></script>
-<script src="scripts/xmlToObject.js" type="text/javascript"></script>
-<script src="scripts/mediaelement-and-player.js" type="text/javascript"></script>
-<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="193A34DB" />
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="A2ibrIm9zsFQqsXAfDrkhlghNQoRI9k9rar5o3kIwpWDOpmhWJZ0OWwXf2qrRR120vfUKScairRd2GTIRF7ipau1GqTimKz+DwKIxbKSLHRMkD8r5+5kyQ3yBpJFqZuTF+1zHhEeFaM2eV6AogrSdw==" />
-        
-
-<div id="header">
-<div id="header-trap" style="background-image: url('/images/header.jpg'); background-repeat: no-repeat; width: 1024px; height: 217px">
-    
-    <!--brand--><br />    
-</div><!--header-trap-->
-</div><!--header-->
-<span id="mainMenu"><div class="navbar"><div class="nav-trap"><ul class="navigation"><li class="red"><a href="/">Home</a></li><li class="orange"><a href="/citizens-residents">Citizens / Residents</a></li><li class="pink"><a href="/non-residents-visitors">Non-Residents</a></li><li class="green"><a href="/businesses">Businesses</a></li><li class="blue"><a href="/government-employees">Government Employees</a></li>
-        
-<li class="searchbox"><input name="ctl00$mainMenu$SearchRequest$search" type="text" id="mainMenu_SearchRequest_search" class="inquiry" placeholder="Search" /></li>
-<li class="searchbtn"><input type="submit" name="ctl00$mainMenu$SearchRequest$cmdSearch" value="SEARCH" id="mainMenu_SearchRequest_cmdSearch" class="btn-submit" /></li>
-
-    </ul></div></div></span>
-
-<div class='container'>
-
-
-<div style="background-color: #FFFFFF;" class="clear">&nbsp;</div>
-<div id="side-left">
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Our Government
-	</h1><ul>
-		<li><a href="http://governorgeneral.govt.lc">Governor General</a></li><li><a href="http://opm.govt.lc">Prime Minister</a></li><li><a href="/cabinet-rejected">Cabinet of Ministers</a></li><li><a href="/house-of-assembly-rejected">House of Assembly</a></li>
-	</ul>
-</div>
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Access Government
-	</h1><ul>
-		<li><a href="/departments">Departments</a></li><li><a href="/directory">Directory</a></li><li><a href="/statutory-bodies">Statutory Bodies</a></li><li><a href="/overseas-missions">Saint Lucia's Representatives</a></li><li><a href="/media">Media</a></li>
-	</ul>
-</div>
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Legislation
-	</h1><ul>
-		<li><a href="/constitution">Constitution</a></li><li><a href="/criminal-code">Criminal Code</a></li><li><a href="/legislation/labour-code">Labour Code</a></li><li><a href="/treaty-of-basseterre">Treaty of Basseterre (revised)</a></li>
-	</ul>
-</div>
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Study
-	</h1><ul>
-		<li><a href="/scholarships">Scholarships</a></li>
-	</ul>
-</div>
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Work with Government
-	</h1><ul>
-		<li><a href="/jobs">Job Opportunities</a></li><li><a href="/tenders">Tenders</a></li><li><a href="/consultancies">Consultancies</a></li><li><a href="/agreements">Collective Agreements</a></li>
-	</ul>
-</div>
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Media
-	</h1><ul>
-		<li><a href="/news">Press Room</a></li><li><a href="/notices">Government Notices</a></li><li><a href="/speeches">Government Speeches</a></li>
-	</ul>
-</div>
-    <div class="side-widget-v">
-	<h1 class="theme-match">
-		Useful Links
-	</h1><ul>
-		<li><a href="/faqs">FAQs</a></li>
-	</ul>
-</div>
-    <div class="clear"></div><!--clear-->
-</div><!--side-left-->   
-
-<div id="home-mid">
-    
-    <h1>
-        
-    </h1>
-    <div>
-        
-    </div>
-
-    <div class="clear"></div><!--clear-->
-</div><!--home-mid-->  
-<div id="side-right">
-    
+<html>
+    <head>
+        <title>Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.<br>Login failed for user 'ourgovt'.</title>
+        <meta name="viewport" content="width=device-width" />
         <style>
-
-#home-mid {
-    width: 548px;
-}
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
         </style>
-        <div class="side-widget-v">
-	<h1 class="theme-match">
-		E-Services
-	</h1><ul>
-		<li><a href="http://efiling.govt.lc">Tax e-Filing</a></li><li><a href="http://www.rocip.gov.lc">Companies / IP</a></li><li><a href="https://customs.gov.lc">Customs / Excise</a></li>
-	</ul>
-</div>
-        <div class="side-widget-v">
-	<h1 class="theme-match">
-		Services
-	</h1><ul id="r_ServicesWidget">
-		<li><a href="/services/accounting-business-services">Accounting/Business Services</a></li><li><a href="/services/accreditation-of-ambassadors-and-presentation-of-credentials">Accreditation of Ambassadors and Presentation of Credentials</a></li><li><a href="/services/accreditation-of-saint-lucian-representatives-overseas">Accreditation of Saint Lucian Representatives Overseas</a></li><li><a href="/services/administration-services">Administration services</a></li><li><a href="/services/">More...</a></li>
-	</ul>
-</div>
-        <div class="side-widget-v">
-	<h1 class="theme-match">
-		Forms
-	</h1><ul id="r_FormsWidget">
-		<li><a href="/forms/client-information-request-form"> Client Information Request Form</a></li><li><a href="/forms/application-for-a-live-and-featured-music-permit">Application for a Live and Featured Music Permit</a></li><li><a href="/forms/application-for-a-saint-lucia-passport-form-a-">Application for a Saint Lucia Passport (Form A)</a></li><li><a href="/forms/application-for-a-vital-record">Application for a vital record</a></li><li><a href="/forms/">More...</a></li>
-	</ul>
-</div>
-        
-        <div class="side-widget-v">
-	<h1 class="theme-match">
-		Popular Links
-	</h1><ul id="r_PopularLinksWidget">
-		<li><a href="http://attorneygeneralchambers.com/" target="_blank">Attorney General&#39;s Chambers Website</a></li><li><a href="http://www.moa.malff.com/" target="_blank">Department of Agriculture</a></li><li><a href="https://www.surveymonkey.com/r/DJ28DPJ" target="_blank">Learning Needs Assessment</a></li><li><a href="http://data.govt.lc/" target="_blank">Saint Lucia Open Data Portal</a></li><li><a href="http://www.efiling.govt.lc" target="_blank">Tax e-Filing</a></li>
-	</ul>
-</div>
-        <div class="side-widget-v">
-	<h1 class="theme-match">
-		Publications
-	</h1><ul id="r_PublicationsWidget">
-		<li><a href="/publications/saint-lucia-human-capital-resilience-project-p170445-stakeholder-engagement-plan">Saint Lucia Human Capital Resilience Project – P170445 Stakeholder Engagement Plan </a></li><li><a href="/publications/saint-lucia-human-capital-resilience-project-p170445-social-assessment2">Saint Lucia Human Capital Resilience Project –P170445 SOCIAL ASSESSMENT</a></li><li><a href="/publications/saint-lucia-human-capital-resilience-project-p170445-labour-management-procedures2">Saint Lucia Human Capital Resilience Project –P170445 LABOUR MANAGEMENT PROCEDURES</a></li><li><a href="/publications/final-report-on-the-implementation-of-the-abbreviated-action-plan-for-the-blanchard-community-center">Final Report on the Implementation of the Abbreviated Action Plan for the Blanchard Community Center</a></li><li><a href="/publications/">More...</a></li>
-	</ul>
-</div>
-        <div class="clear">
-        </div>
-        <!--clear-->
-    
-</div>
-<!--side-left-->    
-<div class="clear">
-</div>
-<!--clear-->
-</div><!--container-->
-<div id="footer">
-	<div id="footer-trap">
+    </head>
 
-            <div id="footer-menu" style="margin: 20px auto 20px auto;">
-                <div id="mnuFooter">
-	<ul class="level1">
-		<li><a class="level1" href="/">Home Page</a></li><li><a class="level2" href="/feedback">Feedback</a></li><li><a class="level2" href="/##"><span style='cursor:pointer;' onclick='return setBookmark();'>Bookmark</span></a></li><li><a class="level2" href="/login">Login</a></li><li><a class="level2" href="https://www.facebook.com/SaintLuciaGovernment"><img src="images/Facebook-icon-24.png" alt="" title="" class="icon" /></a></li><li><a class="level2" href="https://www.youtube.com/channel/UC4al3A_gysYEIzAM1L2qZbg"><img src="images/youtube-icon2-24.png" alt="" title="" class="icon" /></a></li>
-	</ul>
-</div>
-                
-            </div>
+    <body bgcolor="white">
 
-    <div class="clear"></div><!--clear-->
-    </div>
-</div><!--footer-->
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
 
+            <h2> <i>Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.<br>Login failed for user 'ourgovt'.</i> </h2></span>
 
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
 
-    ga('create', 'UA-47259099-1', 'govt.lc');
-    ga('send', 'pageview');
+            <b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
 
-</script>
+            <br><br>
 
+            <b> Exception Details: </b>System.Data.SqlClient.SqlException: Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.<br>Login failed for user 'ourgovt'.<br><br>
 
-<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'mnuFooter', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script></form>
-</body>
+            <b>Source Error:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code>
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.</code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Stack Trace:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[SqlException (0x80131904): Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.
+Login failed for user &#39;ourgovt&#39;.]
+   System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager) +1431
+   System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions) +1085
+   System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions) +70
+   System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection) +964
+   System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection) +109
+   System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection) +1529
+   System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection) +156
+   System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection) +258
+   System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions) +312
+   System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry) +202
+   System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry) +413
+   System.Data.SqlClient.SqlConnection.Open() +128
+   System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch(TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed) +104
+   System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext) +503
+   System.Data.Entity.SqlServer.&lt;&gt;c__DisplayClass1.&lt;Execute&gt;b__0() +18
+   System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Func`1 operation) +234
+   System.Data.Entity.Core.EntityClient.EntityConnection.Open() +318
+
+[EntityException: The underlying provider failed on Open.]
+   System.Data.Entity.Core.EntityClient.EntityConnection.Open() +738
+   System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions) +167
+   System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction(Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess) +63
+   System.Data.Entity.Core.Objects.&lt;&gt;c__DisplayClass47`1.&lt;ExecuteFunction&gt;b__45() +224
+   System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Func`1 operation) +234
+   System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction(String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters) +868
+   OurGovt.ResourceAPI.Data.OurGovernmentEntities.Content_GetByUrl(String absoluteUrl) +331
+   OurGovt.ResourceAPI.ContentResource.Get(OurGovernmentEntities dc, String key) +88
+   OurGovt.ResourceAPI.ResourceService`1.Get(String key) +746
+
+[Exception: &#39;Get&#39; method missing or incorrect signature in class ContentResource - message: Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.
+Login failed for user &#39;ourgovt&#39;. Procedure: [] Message: [Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.] Procedure: [] Message: [Login failed for user &#39;ourgovt&#39;.] HelpLink.ProdName: [Microsoft SQL Server] HelpLink.EvtSrc: [MSSQLServer] HelpLink.EvtID: [4060] HelpLink.BaseHelpUrl: [http://go.microsoft.com/fwlink] HelpLink.LinkId: [20476]]
+   OurGovt.ResourceAPI.ResourceService`1.Get(String key) +1610
+   OurGovt.ResourceAPI.ResourceRepository`1.Reload(String key) +233
+   OurGovt.ResourceAPI.ResourceRepository`1.get_Item(String key) +137
+   OurGovt.ResourceAPI.ResourceRepository`1.Exists(String key) +76
+   RouteContentResolver.Match(HttpContextBase httpContext, Route route, String parameterName, RouteValueDictionary values, RouteDirection routeDirection) +164
+   System.Web.Routing.Route.ProcessConstraint(HttpContextBase httpContext, Object constraint, String parameterName, RouteValueDictionary values, RouteDirection routeDirection) +97
+   System.Web.Routing.Route.ProcessConstraints(HttpContextBase httpContext, RouteValueDictionary values, RouteDirection routeDirection) +220
+   System.Web.Routing.Route.GetRouteData(HttpContextBase httpContext) +213
+   System.Web.Routing.RouteCollection.GetRouteData(HttpContextBase httpContext) +228
+   System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context) +70
+   System.Web.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +139
+   System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step) +195
+   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously) +88
+</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3770.0
+
+            </font>
+
+    </body>
 </html>
+<!-- 
+[SqlException]: Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.
+Login failed for user &#39;ourgovt&#39;.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+[EntityException]: The underlying provider failed on Open.
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at OurGovt.ResourceAPI.Data.OurGovernmentEntities.Content_GetByUrl(String absoluteUrl)
+   at OurGovt.ResourceAPI.ContentResource.Get(OurGovernmentEntities dc, String key)
+   at OurGovt.ResourceAPI.ResourceService`1.Get(String key)
+[Exception]: &#39;Get&#39; method missing or incorrect signature in class ContentResource - message: Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.
+Login failed for user &#39;ourgovt&#39;. Procedure: [] Message: [Cannot open database &quot;GOSL_Prod&quot; requested by the login. The login failed.] Procedure: [] Message: [Login failed for user &#39;ourgovt&#39;.] HelpLink.ProdName: [Microsoft SQL Server] HelpLink.EvtSrc: [MSSQLServer] HelpLink.EvtID: [4060] HelpLink.BaseHelpUrl: [http://go.microsoft.com/fwlink] HelpLink.LinkId: [20476]
+   at OurGovt.ResourceAPI.ResourceService`1.Get(String key)
+   at OurGovt.ResourceAPI.ResourceRepository`1.Reload(String key)
+   at OurGovt.ResourceAPI.ResourceRepository`1.get_Item(String key)
+   at OurGovt.ResourceAPI.ResourceRepository`1.Exists(String key)
+   at RouteContentResolver.Match(HttpContextBase httpContext, Route route, String parameterName, RouteValueDictionary values, RouteDirection routeDirection)
+   at System.Web.Routing.Route.ProcessConstraint(HttpContextBase httpContext, Object constraint, String parameterName, RouteValueDictionary values, RouteDirection routeDirection)
+   at System.Web.Routing.Route.ProcessConstraints(HttpContextBase httpContext, RouteValueDictionary values, RouteDirection routeDirection)
+   at System.Web.Routing.Route.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.RouteCollection.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
