@@ -5,8 +5,7 @@ require 'every_politician_scraper/scraper_data'
 require 'pry'
 
 class MemberList
-  # details for an individual member
-  class Member < Scraped::HTML
+  class Member
     field :name do
       lines_matching('Honourable').first.to_s
                                   .gsub(/.*Honourable/, '') # remove anything up to and including the 'Honourable'
@@ -41,20 +40,7 @@ class MemberList
     end
   end
 
-  # The page listing all the members
-  class Members < Scraped::HTML
-    field :members do
-      # 'position' is a list of 1 or more positions
-      member_container.map { |member| fragment(member => Member) }
-                      .select { |member| member.position.any? }
-                      .map(&:to_h)
-                      .flat_map do |data|
-        data.delete(:position).map { |posn| data.merge(position: posn) }
-      end
-    end
-
-    private
-
+  class Members
     def member_container
       noko.css('.mce-item-table').xpath('.//tr[td[@align="left"]]')
     end
