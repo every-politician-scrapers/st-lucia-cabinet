@@ -1,2 +1,3 @@
 ordinal,item,itemLabel,inception,inceptionPrecision,startTime,startTimePrecision,abolished,abolishedPrecision,endTime,endTimePrecision,isa,isaLabel,parent,parentLabel,replaces,replacesLabel,replacedBy,replacedByLabel,follows,followsLabel,followedBy,followedByLabel
-,Q107675631,Chastanet Cabinet,2016-06-07,11,,,,,,,Q107675621,Cabinet of Saint Lucia,,,,,,,,,,
+,Q107675631,Chastanet Cabinet,2016-06-07,11,,,2021-07-28,11,,,Q107675621,Cabinet of Saint Lucia,,,,,Q109537717,Pierre Cabinet,,,,
+,Q109537717,Pierre Cabinet,2021-08-05,11,,,,,,,Q107675621,Cabinet of Saint Lucia,,,Q107675631,Chastanet Cabinet,,,,,,
