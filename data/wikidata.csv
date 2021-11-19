@@ -1,16 +1,15 @@
 wdid,name,wdLabel,gender,dob,dobPrecision,source,sourceDate,pid,position,psid
-Q107486426,Herod Stanislas,Herod Stanislas,male,,,,,Q107676124,Minister for Physical Planning,Q107486426-D72DA7BE-45A4-427B-8BF5-9C838873D2ED
-Q107486429,Bradley Felix,Bradley Felix,male,,,,,Q107676099,"Minister for Commerce, Industry, Investment, Enterprise Development and Consumer Affairs",Q107486429-D3C9954A-4A03-436A-AC30-30CCC5077890
-Q107664065,Mary Issac,Mary Issac,,,,,,Q107676060,Minister for Health and Wellness,Q107664065-8BF524A1-713F-460B-9B8D-06B16AF58A4E
-Q107664108,Hermangild Francis,Hermangild Francis,,,,,,Q107676106,"Minister for Home Affairs, Justice and National Security",Q107664108-1B9341EC-A169-4FE8-8A7A-212F16702C49
-Q107664118,Fortuna Belrose,Fortuna Belrose,,,,,,Q107676109,"Minister in the Ministry of Tourism, Information and Broadcasting, Culture and Creative Industries with responsibility for Culture and Creative Industries",Q107664118-512543C1-D73F-4081-8546-270BFBD74B33
-Q16198927,Edmund Estephane,Edmund Estephane,male,1968-01-01,9,,,Q107676117,Minister for Youth Development and Sports,Q16198927-B512367D-03A9-4686-8B54-6C9CEB8C2599
-Q16201615,Sarah Flood-Beaubrun,Sarah Flood-Beaubrun,female,1969-01-08,11,,,Q107676135,Minister with responsibility for External Affairs,Q16201615-CC7A902B-5C7A-4669-BBB2-BC297C1F2AB8
-Q16203640,Allen Chastanet,Allen Chastanet,male,1960-11-20,11,,,Q107676151,"Minister for Finance, Economic Growth, Job Creation, External Affairs and the Public Service",Q16203640-20E7438C-DA2D-49DB-B190-8B0949075379
-Q24851870,Dominic Fedee,Dominic Fedee,male,,,,,Q107676074,"Minister for Tourism, Information and Broadcasting, Culture and Creative Industries",Q24851870-A7476152-2E0C-43CD-9699-DB05E1E8151F
-Q5518285,Gale Rigobert,Gale Rigobert,female,1950-01-01,7,,,Q107676145,"Minister for Education, Innovation, Gender Relations and Sustainable Development",Q5518285-3D0395C0-D23E-4954-A850-11142B8F60FC
-Q5622382,Guy Joseph,Guy Joseph,male,1957-01-01,9,,,Q107676129,"Minister for Economic Development, Housing, Urban Renewal, Transport and Civil Aviation",Q5622382-25C355A0-CCA0-4F73-8BD4-1BD821061066
-Q6522265,Lenard Montoute,Lenard Montoute,male,1962-06-30,11,,,Q107676121,"Minister for Equity, Social Justice, Local Government and Empowerment",Q6522265-6F4FBE30-CB01-4B11-9C3B-B9AB3A09387A
-Q708289,Stephenson King,Stephenson King,male,1958-11-13,11,,,Q107676131,"Minister for Infrastructure, Ports, Energy and Labour",Q708289-0037150B-916F-47A0-A4E7-C55808C135A3
-Q7184214,Philip Pierre,Philip Pierre,male,,,,,Q30101433,Prime Minister of Saint Lucia,Q7184214-a73884a6-4fc3-ba70-09be-426ac0a037d8
-Q773795,Ezechiel Joseph,Ezechiel Joseph,male,,,,,Q107676140,"Minister for Agriculture, Fisheries, Natural Resources and Co-operatives",Q773795-C91EB2A9-7A74-4501-906C-E82BEABE0593
+Q105139716,Dr. Ernest Hilaire,Ernest Hilaire,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641180,"Minister for Tourism, Investment, Creative Industries, Culture and Information",Q105139716-ED1DC401-B3C5-4390-A0D8-8E9761D529E8
+Q107664100,Joachim Andre Henry,Joachim Henry,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641126,"Minister for Equity, Social Justice and Empowerment",Q107664100-2E90A8BB-D4EC-4E30-8B11-909B758A0FF8
+Q107788041,Dr. Virginia Albert-Poyotte,Virginia Albert-Poyotte,female,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641177,"Minister for the Public Service, Home Affairs, Labour and Gender Affairs",Q107788041-D1746989-F37E-43F9-BF5E-4313A5A90606
+Q108000688,Kenson Joel Casimir,Kenson Casimir,male,,,http://www.govt.lc/cabinet-rejected,2021-11-15,Q107676117,Minister for Youth Development and Sports,Q108000688-81F3018C-1635-43DC-B406-8E2990190A7C
+Q108444156,Shawn A. Edward,Shawn Edward,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641166,"Minister for Education, Sustainable Development, Innovation, Science, Technology and Vocational Training",Q108444156-49EDFF81-AF5D-47AA-9472-F578131B7AAA
+Q109641213,Alfred P. Prospere,Alfred Prospere,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641214,"Minister for Agriculture, Fisheries, Food Security and Rural Development",Q109641213-50AE6934-C752-44A2-B54F-E87EDD06BEC8
+Q109641269,Wayne D. Girard,Wayne D. Girard,male,1978-04-01,10,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641270,"Minister in the Ministry of Finance, Economic Development and Youth Economy",Q109641269-78642DA0-A41C-4C3D-AB42-28F0A5F7644F
+Q4737616,Alva Romanus Baptiste,Alva Baptiste,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q15916815,"Minister for External Affairs, International Trade, Civil Aviation and Diaspora Affairs",Q4737616-A28EDEE1-9367-491D-A7B4-B0B1642081D4
+Q5372840,Emma Hippolyte,Emma Hippolyte,female,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641112,"Minister for Commerce, Manufacturing, Business Development, Cooperatives and Consumer Affairs",Q5372840-F54D34B5-0D5D-4AF3-A75C-D822358780D5
+Q6915830,Moses Jn. Baptiste,Moses Jean Baptiste,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641134,"Minister for Health, Wellness and Elderly Affairs",Q6915830-5E54E49D-7DBE-48B3-A484-7670B29D50D3
+Q708289,Stephenson King,Stephenson King,male,1958-11-13,11,http://www.govt.lc/cabinet-rejected,2021-11-19,Q107676131,"Senior Minister and Minister for Infrastructure, Ports, Transport, Physical Development and Urban Renewal",Q708289-0037150B-916F-47A0-A4E7-C55808C135A3
+Q7184214,Philip J. Pierre,Philip Pierre,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641140,"Minister for Finance, Economic Development and the Youth Economy",Q7184214-552336AB-EDD6-424F-BF1C-A9DE2F450219
+Q7184214,Philip J. Pierre,Philip Pierre,male,,,http://www.govt.lc/cabinet-rejected,2021-11-19,Q30101433,Prime Minister,Q7184214-B39B2BD8-D10F-4114-91D4-8A6627001D2B
+Q7325780,Richard Frederick,Richard Frederick,male,1965-08-06,11,http://www.govt.lc/cabinet-rejected,2021-11-19,Q109641152,Minister in the Office of the Prime Minister with responsibility for Housing and Local Government,Q7325780-A2461573-89AF-416B-9C44-D9FBB135D44D
