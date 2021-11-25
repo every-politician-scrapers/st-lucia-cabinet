@@ -1,0 +1,277 @@
+{
+  "title": "Alva Baptiste",
+  "pageID": 8399742,
+  "categories": [
+    "Living people",
+    "Members of the House of Assembly of Saint Lucia",
+    "Year of birth missing (living people)",
+    "Saint Lucia Labour Party politicians",
+    "Foreign Ministers of Saint Lucia"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Alva Romanus Baptiste is a Saint Lucian politician who represents the constituency of Laborie for the Saint Lucia Labour Party.",
+              "links": [
+                {
+                  "text": "Saint Lucian",
+                  "type": "internal",
+                  "page": "Saint Lucia"
+                },
+                {
+                  "type": "internal",
+                  "page": "Laborie"
+                },
+                {
+                  "type": "internal",
+                  "page": "Saint Lucia Labour Party"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Alva Romanus Baptiste"
+                ]
+              }
+            },
+            {
+              "text": "Baptiste won the seat at the general election held on 11 December 2006.",
+              "links": [
+                {
+                  "text": "general election",
+                  "type": "internal",
+                  "page": "Saint Lucian general election, 2006"
+                }
+              ]
+            },
+            {
+              "text": "He also won convincingly in the 2011, 2016 and 2021 general elections."
+            },
+            {
+              "text": "He is currently the Minister for External Affairs, International Trade, Civil Aviation and Diaspora Affairs.",
+              "links": [
+                {
+                  "text": "Minister for External Affairs",
+                  "type": "internal",
+                  "page": "Minister of Foreign Affairs (Saint Lucia)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "description": "Saint Lucian politician",
+          "template": "short description"
+        },
+        {
+          "date": "August 2021",
+          "template": "use dmy dates"
+        },
+        {
+          "list": [
+            "Alva Baptiste"
+          ],
+          "template": "commonscat"
+        }
+      ],
+      "infoboxes": [
+        {
+          "image": {
+            "text": "Alva Baptiste (cropped).jpg"
+          },
+          "caption": {
+            "text": "Alva Baptiste at a WTO conference in Bali, December 2013",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Bali"
+              }
+            ]
+          },
+          "office": {
+            "text": "Member of Parliament for Laborie",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Laborie"
+              }
+            ]
+          },
+          "honorific_suffix": {
+            "text": "MP",
+            "links": [
+              {
+                "text": "MP",
+                "type": "internal",
+                "page": "House of Assembly (Saint Lucia)"
+              }
+            ]
+          },
+          "honorific_prefix": {
+            "text": "The Right Honourable",
+            "links": [
+              {
+                "type": "internal",
+                "page": "The Right Honourable"
+              }
+            ]
+          },
+          "termstart": {
+            "text": "11 December 2006"
+          },
+          "office2": {
+            "text": "Minister for External Affairs",
+            "links": [
+              {
+                "text": "Minister for External Affairs",
+                "type": "internal",
+                "page": "Minister of Foreign Affairs (Saint Lucia)"
+              }
+            ]
+          },
+          "termstart2": {
+            "text": "5 August 2021"
+          },
+          "predecessor2": {
+            "text": "Allen Chastanet",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Allen Chastanet"
+              }
+            ]
+          },
+          "term_start3": {
+            "text": "2011",
+            "number": 2011
+          },
+          "term_end3": {
+            "text": "2016",
+            "number": 2016
+          },
+          "predecessor3": {
+            "text": "Rufus Bousquet",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Rufus Bousquet"
+              }
+            ]
+          },
+          "successor3": {
+            "text": "Allen Chastanet",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Allen Chastanet"
+              }
+            ]
+          },
+          "party": {
+            "text": "Saint Lucia Labour Party",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Saint Lucia Labour Party"
+              }
+            ]
+          },
+          "birth_name": {
+            "text": "Alva Romanus Baptiste"
+          }
+        }
+      ],
+      "references": [
+        {
+          "title": "Cabinet of Ministers revealed at swearing-in ceremony",
+          "url": "https://stlucia.loopnews.com/content/cabinet-ministers-revealed-swearing-ceremony",
+          "website": "St. Lucia Times",
+          "access-date": "5 August 2021",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Saint Lucia shows off its Cabinet of Ministers",
+          "url": "https://thevoiceslu.com/2021/08/saint-lucia-shows-off-its-cabinet-of-ministers/",
+          "website": "The Voice Saint Lucia",
+          "access-date": "16 August 2021",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "'We still have concerns about gov't actions'",
+          "url": "http://jamaica-gleaner.com/gleaner/20070828/carib/carib4.html",
+          "work": "Jamaica Gleaner",
+          "date": "28 August 2007",
+          "accessdate": "18 February 2011",
+          "archive-url": "https://web.archive.org/web/20121006100732/http://jamaica-gleaner.com/gleaner/20070828/carib/carib4.html",
+          "archive-date": "2012-10-06",
+          "url-status": "dead",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "title": "Saint Lucia General Election Results 2006",
+          "url": "http://caribbeanelections.com/lc/elections/lc_results_2006.asp",
+          "access-date": "2021-08-17",
+          "website": "caribbeanelections.com",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Saint Lucia General Election Results 2011",
+          "url": "http://www.caribbeanelections.com/lc/elections/lc_results_2011.asp",
+          "access-date": "2021-08-17",
+          "website": "www.caribbeanelections.com",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Saint Lucia General Election Results 2016",
+          "url": "http://caribbeanelections.com/lc/elections/lc_results_2016.asp",
+          "access-date": "2021-08-17",
+          "website": "caribbeanelections.com",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Cabinet of Ministers revealed at swearing-in ceremony {{!}} Loop St. Lucia",
+          "url": "https://stlucia.loopnews.com/content/cabinet-ministers-revealed-swearing-ceremony",
+          "access-date": "2021-08-17",
+          "website": "Loop News",
+          "language": "en",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "date": "2021-07-27",
+          "title": "Election 2021 Update: Laborie Stays with Labour",
+          "url": "https://thevoiceslu.com/2021/07/election-2021-update-laborie-stays-with-labour/",
+          "access-date": "2021-08-17",
+          "website": "St. Lucia News From The Voice",
+          "language": "en-US",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        },
+        {
+          "template": "saintlucia-politician-stub"
+        }
+      ]
+    }
+  ]
+}

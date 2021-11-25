@@ -1,0 +1,162 @@
+{
+  "title": "Moses Jean Baptiste",
+  "pageID": 8402945,
+  "categories": [
+    "Living people",
+    "Members of the House of Assembly of Saint Lucia",
+    "Year of birth missing (living people)",
+    "Saint Lucia Labour Party politicians",
+    "People from Vieux Fort Quarter"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "'''Moses Jn."
+            },
+            {
+              "text": "Baptiste''' is a St. Lucian politician.",
+              "links": [
+                {
+                  "text": "St. Lucian",
+                  "type": "internal",
+                  "page": "St. Lucia"
+                },
+                {
+                  "text": "politician",
+                  "type": "internal",
+                  "page": "politician"
+                }
+              ]
+            },
+            {
+              "text": "He is the Parliamentary Representative for Vieux Fort North.",
+              "links": [
+                {
+                  "text": "Parliamentary",
+                  "type": "internal",
+                  "page": "House of Assembly of Saint Lucia"
+                },
+                {
+                  "type": "internal",
+                  "page": "Vieux Fort"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Jn."
+            },
+            {
+              "text": "Baptiste resides in Pierrot, Vieux-Fort.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Pierrot"
+                }
+              ]
+            },
+            {
+              "text": "Before entering politics, Moses was an agricultural science teacher at the Vieux Fort Comprehensive Secondary School Campus A and then moved on to be the head master at the Vieux Fort Primary school.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Vieux Fort Comprehensive Secondary School"
+                },
+                {
+                  "type": "internal",
+                  "page": "Vieux Fort Primary school"
+                }
+              ]
+            },
+            {
+              "text": "Jn."
+            },
+            {
+              "text": "Baptiste is part of a local cultural and drumming called \"tanbou melee.\""
+            },
+            {
+              "text": "He successfully contested the 2006 general elections in St. Lucia and is a first term Parliamentarian."
+            },
+            {
+              "text": "Hon. Moses Jn."
+            },
+            {
+              "text": "Baptiste is the Labour Party's spokesperson on Rural Development, Agriculture and Culture.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Rural Development"
+                },
+                {
+                  "type": "internal",
+                  "page": "Agriculture"
+                },
+                {
+                  "type": "internal",
+                  "page": "Culture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He is also a poet, farmer and dramatist."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Moses Jn Baptiste 2020 (cropped).png",
+          "thumb": "https://wikipedia.org/wiki/Special:Redirect/file/Moses_Jn_Baptiste_2020_(cropped).png?width=300",
+          "url": "https://wikipedia.org/wiki/Special:Redirect/file/Moses_Jn_Baptiste_2020_(cropped).png",
+          "caption": "Jn. Baptiste in 2020",
+          "links": []
+        }
+      ],
+      "templates": [
+        {
+          "description": "Saint Lucian politician",
+          "template": "short description"
+        },
+        {
+          "date": "February 2009",
+          "template": "blp sources"
+        }
+      ],
+      "references": [
+        {
+          "title": "UWP takes 11",
+          "url": "http://www.htsstlucia.com/News_2006/December/HTS_News_December_12th_2006.html",
+          "work": "HTS Channel 4",
+          "date": "12 December 2006",
+          "accessdate": "26 February 2011",
+          "template": "citation",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        },
+        {
+          "template": "saintlucia-politician-stub"
+        }
+      ]
+    }
+  ]
+}
