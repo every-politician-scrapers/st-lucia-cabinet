@@ -80,6 +80,18 @@
           "day": "6",
           "df": "y",
           "template": "birth date and age"
+        },
+        {
+          "text": "(2014–present)",
+          "template": "sub"
+        },
+        {
+          "text": "(2006–2014)",
+          "template": "sub"
+        },
+        {
+          "text": "(2006)",
+          "template": "sub"
         }
       ],
       "infoboxes": [
@@ -151,7 +163,7 @@
             ]
           },
           "party": {
-            "text": "Independent (2014–present), United Workers Party (2006–2014) , Independent (2006)",
+            "text": "Independent (2014–present), United Workers Party (2006–2014), Independent (2006)",
             "links": [
               {
                 "text": "Independent",
