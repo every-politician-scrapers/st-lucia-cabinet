@@ -215,54 +215,6 @@
           "type": "web"
         }
       ]
-    },
-    {
-      "title": "Political career",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Edward made his debut in Lucian politics in 2011 winning his seat.",
-              "links": [
-                {
-                  "text": "2011",
-                  "type": "internal",
-                  "page": "2011 Saint Lucian general election"
-                }
-              ]
-            },
-            {
-              "text": "From there he went on to be Minister for Youth Development and Sports during the Kenny Anthony led administration.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Kenny Anthony"
-                }
-              ]
-            },
-            {
-              "text": "Edward claimed his spot in the 2021 Saint Lucian General Election, where he was later sworn in as Minister for Education, Sustainable Development, Innovation, Science, Technology and Vocational Training.",
-              "links": [
-                {
-                  "text": "2021 Saint Lucian General Election",
-                  "type": "internal",
-                  "page": "2021 Saint Lucian general election"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "References",
-      "depth": 0,
-      "templates": [
-        {
-          "template": "saintlucia-politician-stub"
-        }
-      ]
     }
   ]
 }
