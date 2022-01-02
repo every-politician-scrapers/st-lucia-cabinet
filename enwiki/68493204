@@ -140,63 +140,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "author": "Gaillard, Sharefil",
-          "title": "Claudius Francis to be sworn in as Speaker of the House of Assembly",
-          "date": "16 August 2021",
-          "url": "https://stlucia.loopnews.com/content/francis-be-sworn-speaker-house-assembly",
-          "access-date": "16 August 2021",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "author": "Gaillard, Sharefil",
-          "title": "New House Speaker promises to overhaul Parliament",
-          "work": "Loop News",
-          "date": "17 August 2021",
-          "url": "https://stlucia.loopnews.com/content/new-house-speaker-promises-overhaul-parliament-559956",
-          "access-date": "17 August 2021",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "url": "https://archive.stlucia.gov.lc/govfolks/members_of_the_senate.htm",
-          "title": "Members of the Senate",
-          "publisher": "Government of Saint Lucia",
-          "archive-url": "https://web.archive.org/web/20201016074001/https://archive.stlucia.gov.lc/govfolks/members_of_the_senate.htm",
-          "archive-date": "16 October 2020",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "url": "http://caribbeanelections.com/knowledge/biography/bios/francis_claudius.asp",
-          "title": "Caribbean Elections Biography {{!}} Claudius Francis",
-          "website": "caribbeanelections.com",
-          "access-date": "16 August 2021",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Saint Lucia",
-          "url": "https://data.ipu.org/content/saint-lucia?chamber_id=13518",
-          "website": "Parline: the IPU’s Open Data Platform",
-          "language": "en",
-          "date": "5 July 2018",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "author": "Nestor, Dean",
-          "title": "CLAUDIUS TELLS IT LIKE IT IS: DOMINIC FEDEE IS ST. LUCIAN!",
-          "newspaper": "St. Lucia Star",
-          "date": "18 January 2020",
-          "url": "https://stluciastar.com/claudius-tells-it-like-it-is-dominic-fedee-is-st-lucian/",
-          "access-date": "16 August 2021",
-          "template": "citation",
-          "type": "news"
-        }
       ]
     }
   ]

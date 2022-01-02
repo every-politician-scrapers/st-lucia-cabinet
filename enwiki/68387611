@@ -152,66 +152,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "title": "Election Update 2021: Labour’s Virginia Albert – Poyotte Wins",
-          "url": "https://thevoiceslu.com/2021/07/election-update-2021-labours-virginia-albert-poyotte-wins/",
-          "website": "St. Lucia Times",
-          "access-date": "2 August 2021",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Cabinet of Ministers revealed at swearing-in ceremony",
-          "url": "https://stlucia.loopnews.com/content/cabinet-ministers-revealed-swearing-ceremony",
-          "website": "St. Lucia Times",
-          "access-date": "5 August 2021",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "author": "Guardian Staff",
-          "date": "2012-06-15",
-          "title": "Queen's birthday honours list 2012: Commonwealth",
-          "url": "http://www.theguardian.com/uk/2012/jun/16/queens-birthday-honours-commonwealth",
-          "access-date": "2021-08-02",
-          "website": "the Guardian",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Cabinet of Ministers revealed at swearing-in ceremony {{!}} Loop St. Lucia",
-          "url": "https://stlucia.loopnews.com/content/cabinet-ministers-revealed-swearing-ceremony",
-          "access-date": "2021-08-05",
-          "website": "Loop News",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "last": "Reporter",
-          "first": "STAR",
-          "date": "2020-07-10",
-          "title": "BREAKING: SLP ENDORSES CANDIDATE FOR BABONNEAU",
-          "url": "https://stluciastar.com/breaking-slp-endorses-candidate-for-babonneau/",
-          "access-date": "2021-08-02",
-          "website": "St. Lucia STAR",
-          "language": "en-US",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "date": "2021-07-27",
-          "title": "Election Update 2021: Labour's Virginia Albert - Poyotte Wins",
-          "url": "https://thevoiceslu.com/2021/07/election-update-2021-labours-virginia-albert-poyotte-wins/",
-          "access-date": "2021-08-02",
-          "website": "St. Lucia News From The Voice",
-          "language": "en-US",
-          "template": "citation",
-          "type": "web"
-        }
       ]
     }
   ]

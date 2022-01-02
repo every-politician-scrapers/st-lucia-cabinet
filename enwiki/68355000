@@ -167,52 +167,6 @@
             ]
           }
         }
-      ],
-      "references": [
-        {
-          "title": "Cabinet of Ministers revealed at swearing-in ceremony",
-          "url": "https://stlucia.loopnews.com/content/cabinet-ministers-revealed-swearing-ceremony",
-          "website": "St. Lucia Times",
-          "access-date": "5 August 2021",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Cabinet of Ministers revealed at swearing-in ceremony {{!}} Loop St. Lucia",
-          "url": "https://stlucia.loopnews.com/content/cabinet-ministers-revealed-swearing-ceremony?fbclid=IwAR2HkZ3D9317eZe2FyiO20tRr0_6H0muMSp0L-MeRgvm84Ey-XpSx7AGqrY",
-          "access-date": "2021-08-05",
-          "website": "Loop News",
-          "language": "en",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "title": "Elections 2021 Update: Joachim Henry Wins Castries South East",
-          "newspaper": "The Voice",
-          "date": "27 July 2021",
-          "url": "https://thevoiceslu.com/2021/07/elections-2021-update-joachim-henry-wins-castries-south-east/",
-          "access-date": "29 July 2021",
-          "template": "citation",
-          "type": "news"
-        },
-        {
-          "url": "https://results.sluelectoral.com/index.php",
-          "title": "Saint Lucia General Elections 2021",
-          "publisher": "Saint Lucia Electoral Department",
-          "access-date": "29 July 2021",
-          "template": "citation",
-          "type": "web"
-        },
-        {
-          "author": "St. Aimee, Joshua",
-          "title": "SLP confirms two “new” candidates: Emma Hippolyte and Joachim Henry to contest next election!",
-          "newspaper": "St. Lucia Star",
-          "date": "28 April 2020",
-          "url": "https://stluciastar.com/slp-confirms-two-new-candidates-emma-hippolyte-and-joachim-henry-to-contest-next-election/",
-          "access-date": "29 July 2021",
-          "template": "citation",
-          "type": "news"
-        }
       ]
     }
   ]
