@@ -75,16 +75,12 @@
       ],
       "templates": [
         {
-          "date": "July 2021",
-          "template": "use dmy dates"
-        },
-        {
           "description": "Prime Minister of Saint Lucia",
           "template": "short description"
         },
         {
           "date": "July 2021",
-          "template": "fact"
+          "template": "use dmy dates"
         }
       ],
       "infoboxes": [
