@@ -1,0 +1,62 @@
+{
+  "title": "Errol Charles",
+  "pageID": 69351296,
+  "categories": [
+    "Governors-General of Saint Lucia",
+    "Living people",
+    "Year of birth missing (living people)"
+  ],
+  "sections": [
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Cyril Errol Melchiades Charles is a Saint Lucian politician.",
+              "links": [
+                {
+                  "text": "Saint Lucian",
+                  "type": "internal",
+                  "page": "Saint Lucia"
+                },
+                {
+                  "text": "politician",
+                  "type": "internal",
+                  "page": "politician"
+                }
+              ],
+              "formatting": {
+                "bold": [
+                  "Cyril Errol Melchiades Charles"
+                ]
+              }
+            },
+            {
+              "text": "He has been acting governor-general of Saint Lucia since 11 November 2021, following the resignation of Sir Neville Cenac.",
+              "links": [
+                {
+                  "text": "governor-general of Saint Lucia",
+                  "type": "internal",
+                  "page": "governor-general of Saint Lucia"
+                },
+                {
+                  "type": "internal",
+                  "page": "Neville Cenac"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "infoboxes": [
+        {
+          "fetchwikidata": {
+            "text": "ALL"
+          }
+        }
+      ]
+    }
+  ]
+}
