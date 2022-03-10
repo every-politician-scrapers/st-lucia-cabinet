@@ -1,164 +1,17 @@
 {
-  "title": "Shawn Edward",
-  "pageID": 68499346,
-  "categories": [
-    "Members of the House of Assembly of Saint Lucia",
-    "Saint Lucia Labour Party politicians",
-    "Living people",
-    "Government ministers of Saint Lucia",
-    "21st-century politicians",
-    "Year of birth missing (living people)"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Shawn Edward is a Saint Lucian politician and representative in the House of Assembly for the Constituency of Dennery North for the Saint Lucia Labour Party.",
-              "links": [
-                {
-                  "text": "Saint Lucian",
-                  "type": "internal",
-                  "page": "Saint Lucia"
-                },
-                {
-                  "text": "House of Assembly",
-                  "type": "internal",
-                  "page": "House of Assembly of Saint Lucia"
-                },
-                {
-                  "type": "internal",
-                  "page": "Saint Lucia Labour Party"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Shawn Edward"
-                ]
-              }
-            },
-            {
-              "text": "Edward also serves as Minister for Education, Sustainable Development, Innovation, Science, Technology and Vocational Training."
-            },
-            {
-              "text": "Edward won his seat once again at the 2021 Saint Lucian General Election.",
-              "links": [
-                {
-                  "text": "2021 Saint Lucian General Election",
-                  "type": "internal",
-                  "page": "2021 Saint Lucian general election"
-                }
-              ]
-            },
-            {
-              "text": "He is also the 2nd Deputy Political Leader of the Saint Lucia Labour Party.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Saint Lucia Labour Party"
-                }
-              ]
-            },
-            {
-              "text": "Edward has not lost his seat since his entry in the 2011 Saint Lucian General Election.",
-              "links": [
-                {
-                  "text": "2011 Saint Lucian General Election",
-                  "type": "internal",
-                  "page": "2011 Saint Lucian general election"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "description": "Saint Lucian Politician",
-          "template": "short description"
-        },
-        {
-          "description": "Saint Lucian politician",
-          "template": "short description"
-        },
-        {
-          "date": "August 2021",
-          "template": "use dmy dates"
-        }
-      ],
-      "infoboxes": [
-        {
-          "party": {
-            "text": "Saint Lucia Labour Party",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Saint Lucia Labour Party"
-              }
-            ]
-          },
-          "office": {
-            "text": "Member of Parliament for Dennery North"
-          },
-          "termstart": {
-            "text": "28 November 2011"
-          },
-          "office2": {
-            "text": "Minister for Education, Sustainable Development, Innovation, Science, Technology and Vocational Training"
-          },
-          "termstart2": {
-            "text": "5 August 2021"
-          },
-          "office1": {
-            "text": "Minister for Youth Development and Sports"
-          },
-          "termstart1": {
-            "text": "2011",
-            "number": 2011
-          },
-          "termend1": {
-            "text": "2016",
-            "number": 2016
-          },
-          "office3": {
-            "text": "2nd Deputy Political Leader of the Saint Lucia Labour Party"
-          },
-          "termstart3": {
-            "text": "28 September 2019"
-          },
-          "birth_name": {
-            "text": "Shawn Edward"
-          },
-          "honorific_suffix": {
-            "text": "MP",
-            "links": [
-              {
-                "text": "MP",
-                "type": "internal",
-                "page": "House of Assembly (Saint Lucia)"
-              }
-            ]
-          },
-          "honorific_prefix": {
-            "text": "The Right Honourable",
-            "links": [
-              {
-                "type": "internal",
-                "page": "The Right Honourable"
-              }
-            ]
-          },
-          "image": {
-            "text": "Shawn Edward.jpg"
-          },
-          "caption": {
-            "text": "Edward in 2020"
-          }
-        }
-      ]
-    }
-  ]
+  "party": "Saint Lucia Labour Party",
+  "office": "Member of Parliament for Dennery North",
+  "termstart": "28 November 2011",
+  "office2": "Minister for Education, Sustainable Development, Innovation, Science, Technology and Vocational Training",
+  "termstart2": "5 August 2021",
+  "office1": "Minister for Youth Development and Sports",
+  "termstart1": "2011",
+  "termend1": "2016",
+  "office3": "2nd Deputy Political Leader of the Saint Lucia Labour Party",
+  "termstart3": "28 September 2019",
+  "birth_name": "Shawn Edward",
+  "honorific_suffix": "MP",
+  "honorific_prefix": "The Right Honourable",
+  "image": "Shawn Edward.jpg",
+  "caption": "Edward in 2020"
 }

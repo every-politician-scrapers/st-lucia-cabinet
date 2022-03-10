@@ -1,235 +1,26 @@
 {
-  "title": "Philip J. Pierre",
-  "pageID": 4388649,
-  "categories": [
-    "Living people",
-    "Year of birth missing (living people)",
-    "Members of the House of Assembly of Saint Lucia",
-    "Saint Lucia Labour Party politicians",
-    "University of the West Indies alumni",
-    "Prime Ministers of Saint Lucia",
-    "Deputy Prime Ministers of Saint Lucia",
-    "Economy ministers of Saint Lucia",
-    "Finance ministers of Saint Lucia",
-    "Infrastructure ministers of Saint Lucia",
-    "Postal services ministers of Saint Lucia",
-    "Transport ministers of Saint Lucia",
-    "Youth ministers of Saint Lucia"
-  ],
-  "sections": [
-    {
-      "title": "",
-      "depth": 0,
-      "paragraphs": [
-        {
-          "sentences": [
-            {
-              "text": "Philip Joseph Pierre (born 1954/1955 ) is a Saint Lucian politician currently serving as the prime minister of Saint Lucia since 28 July 2021.",
-              "links": [
-                {
-                  "text": "prime minister",
-                  "type": "internal",
-                  "page": "List of prime ministers of Saint Lucia"
-                },
-                {
-                  "type": "internal",
-                  "page": "Saint Lucia"
-                }
-              ],
-              "formatting": {
-                "bold": [
-                  "Philip Joseph Pierre"
-                ]
-              }
-            },
-            {
-              "text": "Pierre serves as the Minister for Finance, Economic Development and the Youth Economy."
-            },
-            {
-              "text": "He is the Leader of the Saint Lucia Labour Party since 18 June 2016.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Saint Lucia Labour Party"
-                }
-              ]
-            },
-            {
-              "text": "He has represented the Castries East constituency in the House of Assembly since 1997.",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Castries"
-                },
-                {
-                  "text": "House of Assembly",
-                  "type": "internal",
-                  "page": "House of Assembly of Saint Lucia"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentences": [
-            {
-              "text": "Pierre previously served as Minister for Tourism, Civil Aviation and International Financial Services from 1997 to 2000; Deputy Prime Minister and Minister for Infrastructure, Port Services and Transport from 2011 to 2016; and as Leader of the Opposition from 2016 to 2021."
-            }
-          ]
-        }
-      ],
-      "templates": [
-        {
-          "description": "Prime Minister of Saint Lucia",
-          "template": "short description"
-        },
-        {
-          "date": "July 2021",
-          "template": "use dmy dates"
-        }
-      ],
-      "infoboxes": [
-        {
-          "honorific-prefix": {
-            "text": "The Right Honourable",
-            "links": [
-              {
-                "type": "internal",
-                "page": "The Right Honourable"
-              }
-            ]
-          },
-          "name": {
-            "text": "Philip J. Pierre"
-          },
-          "honorific-suffix": {
-            "text": "MP",
-            "links": [
-              {
-                "text": "MP",
-                "type": "internal",
-                "page": "House of Assembly of Saint Lucia"
-              }
-            ]
-          },
-          "image": {
-            "text": "Philip J Pierre Christmas 2020 (cropped).png"
-          },
-          "order": {
-            "text": "9th"
-          },
-          "office": {
-            "text": "Prime Minister of Saint Lucia"
-          },
-          "monarch": {
-            "text": "Elizabeth II",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Elizabeth II"
-              }
-            ]
-          },
-          "governor-general": {
-            "text": "Neville Cenac",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Neville Cenac"
-              }
-            ]
-          },
-          "term_start": {
-            "text": "28 July 2021"
-          },
-          "predecessor": {
-            "text": "Allen Chastanet",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Allen Chastanet"
-              }
-            ]
-          },
-          "office2": {
-            "text": "Leader of the Opposition of Saint Lucia",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Leader of the Opposition"
-              },
-              {
-                "type": "internal",
-                "page": "Saint Lucia"
-              }
-            ]
-          },
-          "term_start2": {
-            "text": "18 June 2016"
-          },
-          "term_end2": {
-            "text": "28 July 2021"
-          },
-          "predecessor2": {
-            "text": "Kenny Anthony",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Kenny Anthony"
-              }
-            ]
-          },
-          "successor2": {
-            "text": "Allen Chastanet",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Allen Chastanet"
-              }
-            ]
-          },
-          "office3": {
-            "text": "Member of Parliament for Castries East",
-            "links": [
-              {
-                "text": "Member of Parliament",
-                "type": "internal",
-                "page": "House of Assembly of Saint Lucia"
-              }
-            ]
-          },
-          "term_start3": {
-            "text": "24 May 1997"
-          },
-          "predecessor3": {
-            "text": "Romanus Lansiquot"
-          },
-          "birth_name": {
-            "text": "Philip Joseph Pierre"
-          },
-          "birth_place": {
-            "text": "Castries, St. Lucia"
-          },
-          "party": {
-            "text": "Saint Lucia Labour Party",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Saint Lucia Labour Party"
-              }
-            ]
-          },
-          "alma_mater": {
-            "text": "University of the West Indies"
-          },
-          "office4": {
-            "text": "Minister for Finance, Economic Development and the Youth Economy."
-          },
-          "term_start4": {
-            "text": "5 August 2021"
-          }
-        }
-      ]
-    }
-  ]
+  "honorific-prefix": "The Right Honourable",
+  "name": "Philip J. Pierre",
+  "honorific-suffix": "MP",
+  "image": "Philip J Pierre Christmas 2020 (cropped).png",
+  "order": "9th",
+  "office": "Prime Minister of Saint Lucia",
+  "monarch": "Elizabeth II",
+  "governor-general": "Neville Cenac",
+  "term_start": "28 July 2021",
+  "predecessor": "Allen Chastanet",
+  "office2": "Leader of the Opposition of Saint Lucia",
+  "term_start2": "18 June 2016",
+  "term_end2": "28 July 2021",
+  "predecessor2": "Kenny Anthony",
+  "successor2": "Allen Chastanet",
+  "office3": "Member of Parliament for Castries East",
+  "term_start3": "24 May 1997",
+  "predecessor3": "Romanus Lansiquot",
+  "birth_name": "Philip Joseph Pierre",
+  "birth_place": "Castries, St. Lucia",
+  "party": "Saint Lucia Labour Party",
+  "alma_mater": "University of the West Indies",
+  "office4": "Minister for Finance, Economic Development and the Youth Economy.",
+  "term_start4": "5 August 2021"
 }
