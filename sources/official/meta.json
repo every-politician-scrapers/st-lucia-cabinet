@@ -1,0 +1,20 @@
+{
+    "jurisdiction": {
+      "name": "Saint Lucia",
+      "id": "Q760"
+    },
+    "cabinet": {
+      "id": "Q109537717",
+      "start": "2021-08-05",
+      "parent": "Q107675621"
+    },
+    "source": {
+        "url":   "http://www.govt.lc/cabinet-rejected",
+        "title": "Web Portal of the Government of Saint Lucia | Cabinet of Ministers",
+        "lang":  {
+            "code": "en",
+            "wikidata": "Q1860"
+        }
+    },
+    "agent": "every-politican-scrapers/st-lucia-cabinet"
+}
